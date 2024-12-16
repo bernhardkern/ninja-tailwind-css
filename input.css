@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.card {
+  @apply relative overflow-hidden rounded bg-white shadow-md;
+}
+
+.badge {
+  @apply absolute top-0 left-1 mt-2 ml-2 rounded-full p-2 text-xs font-bold uppercase bg-secondary-100 text-secondary-200;
+}
+
+.btn {
+  @apply cursor-pointer rounded-full px-3 py-2 text-xs font-bold uppercase tracking-wider;
+}
